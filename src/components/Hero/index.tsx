@@ -4,8 +4,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="relative z-10 overflow-hidden  pb-16 pt-[120px]  md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
-    >
+      className="relative z-10 overflow-hidden  pb-16 pt-[120px]  md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -17,13 +16,12 @@ const Hero = () => {
                 Say goodbye to complexity as you navigate the world of
                 blockchain investments effortlessly. Embrace the future of
                 investing with ease and clarity. Join us now and redefine your
-                financial journey!"
+                financial journey!
               </p>
               <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                 <Link
                   href=""
-                  className="rounded-lg bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                >
+                  className="rounded-lg bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80">
                   View Docs
                 </Link>
                 {/* <Link
