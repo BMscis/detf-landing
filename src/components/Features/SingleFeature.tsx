@@ -13,7 +13,6 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         opacity: 1,
       }}
       viewport={{ amount: "all" }}
-      onViewportEnter={() => console.log(`title: ${title}`)}
     >
       <div
         className="grid max-h-full grid-cols-2 items-center"

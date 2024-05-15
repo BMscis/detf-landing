@@ -8,6 +8,12 @@ const nextConfig = {
         hostname: "cdn.sanity.io",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "circle.com",
+        pathname: "/favicon.ico",
+        port: "",
+      },
     ],
   },
 };

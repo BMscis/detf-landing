@@ -5,13 +5,15 @@ module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   darkMode: "class",
   theme: {
     container: {
       center: true,
       padding: "1rem",
+      positon: "relative",
+      maxHeight: "100%"
     },
     screens: {
       xs: "450px",
@@ -29,7 +31,7 @@ module.exports = {
       xl: "1200px",
       // => @media (min-width: 1200px) { ... }
 
-      "2xl": "1400px",
+      "2xl": "1400px"
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
@@ -37,11 +39,15 @@ module.exports = {
         bg: "/images/bg.jpg",
         inspired: "radial-gradient(#0e2e54, transparent)",
         "gradient-radial":
-          "radial-gradient(circle, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.8) 100%)",
+          "radial-gradient(circle, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.8) 100%)"
       },
+      gridTemplateColumns: {
+        contact: "60% 40%"
+      },
+
       backgroundColor: {
         "black-opacity-60": "rgba(0, 0, 0, 0.6)",
-        "black-opacity-80": "rgba(0, 0, 0, 0.8)",
+        "black-opacity-80": "rgba(0, 0, 0, 0.8)"
       },
       colors: {
         current: "currentColor",
@@ -56,17 +62,17 @@ module.exports = {
         "body-color": {
           DEFAULT: "#C0C7D0",
           dark: "#959CB1",
-          light: "#C0C7D0",
+          light: "#C0C7D0"
         },
         stroke: {
           stroke: "#E3E8EF",
-          dark: "#353943",
+          dark: "#353943"
         },
         gray: {
           ...colors.gray,
           dark: "#1E232E",
-          light: "#F0F2F9",
-        },
+          light: "#F0F2F9"
+        }
       },
 
       boxShadow: {
@@ -81,12 +87,12 @@ module.exports = {
         "submit-dark": "0px 5px 20px rgba(4, 10, 34, 0.1)",
         btn: "0px 1px 2px rgba(4, 10, 34, 0.15)",
         "btn-hover": "0px 1px 2px rgba(0, 0, 0, 0.15)",
-        "btn-light": "0px 1px 2px rgba(0, 0, 0, 0.1)",
+        "btn-light": "0px 1px 2px rgba(0, 0, 0, 0.1)"
       },
       dropShadow: {
-        three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
-      },
-    },
+        three: "0px 5px 15px rgba(6, 8, 15, 0.05)"
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };

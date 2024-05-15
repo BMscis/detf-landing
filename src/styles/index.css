@@ -59,4 +59,15 @@ section {
 
 html {
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}
+.container {
+  max-height: 100%;
+}
+#contact {
+  max-height: 100%;
 }
