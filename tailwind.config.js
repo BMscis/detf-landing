@@ -13,7 +13,6 @@ module.exports = {
       center: true,
       padding: "1rem",
     },
-
     screens: {
       xs: "450px",
       // => @media (min-width: 450px) { ... }
@@ -34,18 +33,30 @@ module.exports = {
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
+      backgroundImage: {
+        bg: "/images/bg.jpg",
+        inspired: "radial-gradient(#0e2e54, transparent)",
+        "gradient-radial":
+          "radial-gradient(circle, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.8) 100%)",
+      },
+      backgroundColor: {
+        "black-opacity-60": "rgba(0, 0, 0, 0.6)",
+        "black-opacity-80": "rgba(0, 0, 0, 0.8)",
+      },
       colors: {
         current: "currentColor",
         transparent: "transparent",
         white: "#FFFFFF",
         black: "#121723",
         dark: "#1D2430",
-        primary: "#4A6CF7",
+        primary: "#0e2e54",
+        secondary: "#2780d8",
         yellow: "#FBB040",
         "bg-color-dark": "#171C28",
         "body-color": {
-          DEFAULT: "#788293",
+          DEFAULT: "#C0C7D0",
           dark: "#959CB1",
+          light: "#C0C7D0",
         },
         stroke: {
           stroke: "#E3E8EF",

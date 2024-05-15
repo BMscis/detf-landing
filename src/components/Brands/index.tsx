@@ -4,7 +4,7 @@ import brandsData from "./brandsData";
 
 const Brands = () => {
   return (
-    <section className="pt-16">
+    <div className="pt-16">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -16,7 +16,7 @@ const Brands = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
